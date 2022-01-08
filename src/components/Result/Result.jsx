@@ -8,7 +8,7 @@ const Result = () => {
    if (state.data[0] && state.wrongQuery == false) {
       const temp = (+state.data[0].main.temp - 273.15)
       const res = temp.toFixed(1)
-      
+
       return (
          <div className={classes.wrapper}>
             <p>Location: {state.data[0].name}</p>
@@ -32,5 +32,4 @@ const Result = () => {
       )
    }
 };
-
 export default Result;
