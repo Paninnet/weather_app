@@ -11,7 +11,7 @@ export const dataReducer = (state,action) => {
          return{...state, search:action.search, wrongQuery: action.wrongQuery, data:[action.data]}
       case WRONG_QUERY:
          return{...state, search:action.search, wrongQuery: action.wrongQuery }
-   
+
       default:
          return {...state};
    }
