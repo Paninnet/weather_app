@@ -1,8 +1,8 @@
 {
   "name": "weather_app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://github.com/paninnet/weather_app",
+  "private": false,
+  "homepage": "https://github.com/paninnet/weather_app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
