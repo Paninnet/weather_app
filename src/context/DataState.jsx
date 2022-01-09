@@ -16,7 +16,7 @@ export const DataState = ({ children }) => {
 
    const [state, dispatch] = useReducer(dataReducer, inithialState)
 
-   const url = `http://api.openweathermap.org/data/2.5/weather?q=${state.search}&appid=${key}`
+   const url = `https://api.openweathermap.org/data/2.5/weather?q=${state.search}&appid=${key}`
 
    const changeSearch = (text) => {
       dispatch({ type: CHANGE_INPUT, search: text})
